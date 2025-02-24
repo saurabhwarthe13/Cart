@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #FF4F92;
+}
+
+.offer-box {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.offer-box input {
+    margin-right: 10px;
+}
+
+.offer-box .price {
+    float: right;
+    font-weight: bold;
+}
+
+.offer-box .standard-price {
+    display: block;
+    font-size: 12px;
+    color: #888;
+}
+
+.offer-box.popular {
+    border: 2px solid #FF4F92;
+}
+
+.discount {
+    color: #FF4F92;
+    margin-left: 5px;
+}
+
+.free-delivery {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.total {
+    text-align: center;
+    font-size: large;
+    margin: 20px 0;
+}
+
+.add-cart {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF4F92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.powered {
+    text-align: center;
+    font-size: small;
+    margin-top: 10px;
+    color: #888;
+}
